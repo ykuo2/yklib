@@ -88,4 +88,4 @@ struct yk_list_node *yk_list_unlink(struct yk_list *list, struct yk_list_node *n
 // Visit all nodes in the list, applying visit_fn
 void yk_list_visit(const struct yk_list *list, yk_visit_fn *visit_fn);
 
-#endif // !YKLIB_LINKED_LIST_H
+#endif // YKLIB_LINKED_LIST_H

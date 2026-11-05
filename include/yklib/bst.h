@@ -71,4 +71,4 @@ void yk_bst_visit_preorder(const struct yk_bst *bst, yk_visit_fn *visit_fn);
 void yk_bst_visit_postorder(const struct yk_bst *bst, yk_visit_fn *visit_fn);
 
 
-#endif // !YKLIB_BST_H
+#endif // YKLIB_BST_H

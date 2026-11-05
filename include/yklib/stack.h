@@ -64,5 +64,5 @@ void *yk_stack_pop(struct yk_stack *stack);
 * Traversal
 * ========== */
 
-#endif // !YKLIB_STACK_H
+#endif // YKLIB_STACK_H
 

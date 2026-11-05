@@ -48,6 +48,16 @@
 			path = core;
 			sourceTree = "<group>";
 		};
+		58AEF2D1302F0BCC008AB037 /* algorithm */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = algorithm;
+			sourceTree = "<group>";
+		};
+		58AEF2D5302F0C33008AB037 /* algorithm */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = algorithm;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		58F107963006D2B200EBA9A2 /* yklib */ = {
 			isa = PBXGroup;
 			children = (
+				58AEF2D1302F0BCC008AB037 /* algorithm */,
 				5868D1A930080EF100660FB5 /* core */,
 				58F107953006D2B200EBA9A2 /* list.h */,
 				5882CE42300A835800FC2EF1 /* stack.h */,
@@ -101,6 +112,7 @@
 		58F107993006D2B200EBA9A2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				58AEF2D5302F0C33008AB037 /* algorithm */,
 				58F107983006D2B200EBA9A2 /* list.c */,
 				5882CE43300A835800FC2EF1 /* stack.c */,
 				5882CE4B300CC7B400FC2EF1 /* bst.c */,
@@ -140,6 +152,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5868D1A930080EF100660FB5 /* core */,
+				58AEF2D1302F0BCC008AB037 /* algorithm */,
+				58AEF2D5302F0C33008AB037 /* algorithm */,
 			);
 			name = yklib;
 			packageProductDependencies = (

@@ -17,4 +17,4 @@ typedef int yk_compare_fn(const void *a, const void *b);  // return >0 if a>b, <
 typedef void yk_visit_fn(const void *data);  // eg. for display
 typedef void yk_destroy_fn(void *data);  // to distroy/free data
 
-#endif // !YKLIB_CALLBACK_FUNCTION_H
+#endif // YKLIB_CALLBACK_FUNCTION_H

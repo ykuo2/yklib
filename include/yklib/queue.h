@@ -81,4 +81,4 @@ void *yk_queue_dequeue(struct yk_queue *queue);
 // not implemented
 
 
-#endif // !YKLIB_QUEUE_H
+#endif // YKLIB_QUEUE_H
